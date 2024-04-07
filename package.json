@@ -5,7 +5,7 @@
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "0.x"
   },
-  "homepage": "https://renuenergia.com.br/",
+  "homepage": "https://ryansantosribeiro.github.io/category-recommenders",
   "dependencies": {
     "gh-pages": "^6.1.1",
     "@google/generative-ai": "^0.5.0",
