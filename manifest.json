@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Recomendação de Categoria",
+  "name": "Recomendação de Categoria",
   "icons": [
     {
       "src": "favicon.ico",
