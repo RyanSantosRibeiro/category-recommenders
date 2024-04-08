@@ -6,7 +6,9 @@ body {
   background-color: #fff;
   margin: 0;
 }
-
+* {
+  box-sizing: border-box;
+}
 /* Form styling */
 form {
   width: 400px;
@@ -83,12 +85,7 @@ button {
   margin-top: 20px;
 }
 
-/* Responsiveness */
-@media (max-width: 575px) {
-  form {
-    width: 100%;
-  }
-}
+
 
 .container {
   width: 100%;
@@ -127,4 +124,24 @@ button {
   width: 70%;
   height: auto;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsiveness */
+@media (max-width: 575px) {
+  form {
+    width: 100%;
+  }
+
+  .modal {
+    flex-direction: column-reverse;
+    width: 80%;
+  }
+
+  .modal > div {
+    width: 100%;
+  }
+
+  .modal-left > div {
+    width: 100%;
+  }
 }
